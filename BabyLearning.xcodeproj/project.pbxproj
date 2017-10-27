@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045068147F88885EF60EB7EA /* libPods-BabyLearning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C16FDB5EE5E8DBF38271D5 /* libPods-BabyLearning.a */; };
 		44135CF81FA34E8700F77A8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135CF71FA34E8700F77A8F /* AppDelegate.m */; };
 		44135CFE1FA34E8800F77A8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44135CFC1FA34E8800F77A8F /* Main.storyboard */; };
 		44135D001FA34E8800F77A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44135CFF1FA34E8800F77A8F /* Assets.xcassets */; };
@@ -18,9 +19,12 @@
 		44135D1B1FA3523500F77A8F /* KEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D1A1FA3523500F77A8F /* KEBaseViewController.m */; };
 		44135D1E1FA3537200F77A8F /* KENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D1D1FA3537200F77A8F /* KENavigationController.m */; };
 		44135D221FA3557B00F77A8F /* KEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D211FA3557B00F77A8F /* KEMainViewController.m */; };
+		44135D251FA357A100F77A8F /* KETestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D241FA357A100F77A8F /* KETestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1561079F0D3A7A905292ADE5 /* Pods-BabyLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabyLearning/Pods-BabyLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		39C16FDB5EE5E8DBF38271D5 /* libPods-BabyLearning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BabyLearning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44135CF31FA34E8700F77A8F /* BabyLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44135CF61FA34E8700F77A8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44135CF71FA34E8700F77A8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +43,9 @@
 		44135D1D1FA3537200F77A8F /* KENavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KENavigationController.m; sourceTree = "<group>"; };
 		44135D201FA3557B00F77A8F /* KEMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEMainViewController.h; sourceTree = "<group>"; };
 		44135D211FA3557B00F77A8F /* KEMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEMainViewController.m; sourceTree = "<group>"; };
+		44135D231FA357A100F77A8F /* KETestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KETestView.h; sourceTree = "<group>"; };
+		44135D241FA357A100F77A8F /* KETestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KETestView.m; sourceTree = "<group>"; };
+		9989925A0299163DD0CF8F54 /* Pods-BabyLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyLearning/Pods-BabyLearning.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045068147F88885EF60EB7EA /* libPods-BabyLearning.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +65,8 @@
 			children = (
 				44135CF51FA34E8700F77A8F /* BabyLearning */,
 				44135CF41FA34E8700F77A8F /* Products */,
+				735DCC7F0A6E4A5550A2232B /* Pods */,
+				B821F1D9A5C06DA952252174 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +134,8 @@
 		44135D171FA3520800F77A8F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				44135D231FA357A100F77A8F /* KETestView.h */,
+				44135D241FA357A100F77A8F /* KETestView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,6 +160,23 @@
 			path = Business;
 			sourceTree = "<group>";
 		};
+		735DCC7F0A6E4A5550A2232B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1561079F0D3A7A905292ADE5 /* Pods-BabyLearning.debug.xcconfig */,
+				9989925A0299163DD0CF8F54 /* Pods-BabyLearning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B821F1D9A5C06DA952252174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39C16FDB5EE5E8DBF38271D5 /* libPods-BabyLearning.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44135D091FA34E8800F77A8F /* Build configuration list for PBXNativeTarget "BabyLearning" */;
 			buildPhases = (
+				6A391917ABA66F084A143179 /* [CP] Check Pods Manifest.lock */,
 				44135CEF1FA34E8700F77A8F /* Sources */,
 				44135CF01FA34E8700F77A8F /* Frameworks */,
 				44135CF11FA34E8700F77A8F /* Resources */,
+				7EB410E71E19E32010AEE0A9 /* [CP] Embed Pods Frameworks */,
+				45074C71BFDBD0ECA347656B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,12 +247,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45074C71BFDBD0ECA347656B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyLearning/Pods-BabyLearning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A391917ABA66F084A143179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB410E71E19E32010AEE0A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyLearning/Pods-BabyLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44135CEF1FA34E8700F77A8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				44135D0F1FA34FA500F77A8F /* MobileNet.mlmodel in Sources */,
+				44135D251FA357A100F77A8F /* KETestView.m in Sources */,
 				44135D1B1FA3523500F77A8F /* KEBaseViewController.m in Sources */,
 				44135D101FA34FA500F77A8F /* GoogLeNetPlaces.mlmodel in Sources */,
 				44135D221FA3557B00F77A8F /* KEMainViewController.m in Sources */,
@@ -359,6 +440,7 @@
 		};
 		44135D0A1FA34E8800F77A8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1561079F0D3A7A905292ADE5 /* Pods-BabyLearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,6 +456,7 @@
 		};
 		44135D0B1FA34E8800F77A8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9989925A0299163DD0CF8F54 /* Pods-BabyLearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
