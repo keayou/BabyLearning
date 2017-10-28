@@ -11,6 +11,8 @@
 #import <Vision/Vision.h>
 
 #import "MobileNet.h"
+#import "Inceptionv3.h"
+
 #import "UIImage+Utils.h"
 
 
@@ -177,10 +179,11 @@
 - (VNCoreMLRequest *)vnRequest {
     if (_vnRequest) return _vnRequest;
 
-    MobileNet *model = [[MobileNet alloc] init];
-
+//    MobileNet *model = [[MobileNet alloc] init];
+    Inceptionv3 *v3model = [[Inceptionv3 alloc] init];
+    
     NSError *error = nil;;
-    VNCoreMLModel *mlModel = [VNCoreMLModel modelForMLModel:model.model error:&error];
+    VNCoreMLModel *mlModel = [VNCoreMLModel modelForMLModel:v3model.model error:&error];
     
     _vnRequest = [[VNCoreMLRequest alloc] initWithModel:mlModel completionHandler:^(VNRequest * _Nonnull request, NSError * _Nullable error) {
         [self classificationCompleteHandler:request error:error];
