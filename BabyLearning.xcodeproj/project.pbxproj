@@ -18,8 +18,6 @@
 		44135D1E1FA3537200F77A8F /* KENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D1D1FA3537200F77A8F /* KENavigationController.m */; };
 		44135D221FA3557B00F77A8F /* KEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D211FA3557B00F77A8F /* KEMainViewController.m */; };
 		44135D251FA357A100F77A8F /* KETestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D241FA357A100F77A8F /* KETestView.m */; };
-		E845B9221FA40B480007DEE1 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E845B9201FA40B480007DEE1 /* MobileNet.mlmodel */; };
-		E845B9231FA40B480007DEE1 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E845B9211FA40B480007DEE1 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +42,6 @@
 		44135D231FA357A100F77A8F /* KETestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KETestView.h; sourceTree = "<group>"; };
 		44135D241FA357A100F77A8F /* KETestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KETestView.m; sourceTree = "<group>"; };
 		9989925A0299163DD0CF8F54 /* Pods-BabyLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyLearning/Pods-BabyLearning.release.xcconfig"; sourceTree = "<group>"; };
-		E845B9201FA40B480007DEE1 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
-		E845B9211FA40B480007DEE1 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +94,6 @@
 		44135D0C1FA34F5000F77A8F /* CoreMLModels */ = {
 			isa = PBXGroup;
 			children = (
-				E845B9211FA40B480007DEE1 /* GoogLeNetPlaces.mlmodel */,
-				E845B9201FA40B480007DEE1 /* MobileNet.mlmodel */,
 			);
 			path = CoreMLModels;
 			sourceTree = "<group>";
@@ -300,9 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E845B9221FA40B480007DEE1 /* MobileNet.mlmodel in Sources */,
 				44135D251FA357A100F77A8F /* KETestView.m in Sources */,
-				E845B9231FA40B480007DEE1 /* GoogLeNetPlaces.mlmodel in Sources */,
 				44135D1B1FA3523500F77A8F /* KEBaseViewController.m in Sources */,
 				44135D221FA3557B00F77A8F /* KEMainViewController.m in Sources */,
 				44135D151FA34FFC00F77A8F /* UIImage+Utils.m in Sources */,
