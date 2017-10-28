@@ -21,6 +21,7 @@
 		E845B93B1FA40EEE0007DEE1 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E845B9381FA40EEE0007DEE1 /* MobileNet.mlmodel */; };
 		E845B93C1FA40EEE0007DEE1 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E845B9391FA40EEE0007DEE1 /* GoogLeNetPlaces.mlmodel */; };
 		E845B93D1FA40EEE0007DEE1 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E845B93A1FA40EEE0007DEE1 /* Inceptionv3.mlmodel */; };
+		E845B9411FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E845B9401FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,10 @@
 		E845B9381FA40EEE0007DEE1 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		E845B9391FA40EEE0007DEE1 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		E845B93A1FA40EEE0007DEE1 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		E845B93F1FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEVNCoreMLRequestHandler.h; sourceTree = "<group>"; };
+		E845B9401FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEVNCoreMLRequestHandler.m; sourceTree = "<group>"; };
+		E845B9441FA4BE3D0007DEE1 /* KEPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEPrefixHeader.pch; sourceTree = "<group>"; };
+		E845B9451FA4BECA0007DEE1 /* KEConstantsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEConstantsMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,7 @@
 		44135CF51FA34E8700F77A8F /* BabyLearning */ = {
 			isa = PBXGroup;
 			children = (
+				E845B9421FA4BDF70007DEE1 /* General */,
 				E845B9371FA40EE10007DEE1 /* CoreMLModels */,
 				44135D111FA34FCC00F77A8F /* Common */,
 				44135D1F1FA3554600F77A8F /* Business */,
@@ -147,6 +153,7 @@
 		44135D1F1FA3554600F77A8F /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				E845B93E1FA4B8A80007DEE1 /* Core */,
 				44135D161FA351EE00F77A8F /* ViewController */,
 				44135D171FA3520800F77A8F /* View */,
 			);
@@ -178,6 +185,32 @@
 				E845B9381FA40EEE0007DEE1 /* MobileNet.mlmodel */,
 			);
 			name = CoreMLModels;
+			sourceTree = "<group>";
+		};
+		E845B93E1FA4B8A80007DEE1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E845B93F1FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.h */,
+				E845B9401FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E845B9421FA4BDF70007DEE1 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E845B9431FA4BE020007DEE1 /* Config */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		E845B9431FA4BE020007DEE1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E845B9441FA4BE3D0007DEE1 /* KEPrefixHeader.pch */,
+				E845B9451FA4BECA0007DEE1 /* KEConstantsMacro.h */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +342,7 @@
 				44135D1B1FA3523500F77A8F /* KEBaseViewController.m in Sources */,
 				44135D221FA3557B00F77A8F /* KEMainViewController.m in Sources */,
 				E845B93D1FA40EEE0007DEE1 /* Inceptionv3.mlmodel in Sources */,
+				E845B9411FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.m in Sources */,
 				44135D151FA34FFC00F77A8F /* UIImage+Utils.m in Sources */,
 				44135D061FA34E8800F77A8F /* main.m in Sources */,
 				44135D1E1FA3537200F77A8F /* KENavigationController.m in Sources */,
@@ -449,6 +483,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC5ZKJT82S;
+				GCC_PREFIX_HEADER = BabyLearning/General/Config/KEPrefixHeader.pch;
 				INFOPLIST_FILE = BabyLearning/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -465,6 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC5ZKJT82S;
+				GCC_PREFIX_HEADER = BabyLearning/General/Config/KEPrefixHeader.pch;
 				INFOPLIST_FILE = BabyLearning/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
