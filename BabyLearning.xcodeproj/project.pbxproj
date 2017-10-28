@@ -13,8 +13,6 @@
 		44135D001FA34E8800F77A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44135CFF1FA34E8800F77A8F /* Assets.xcassets */; };
 		44135D031FA34E8800F77A8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44135D011FA34E8800F77A8F /* LaunchScreen.storyboard */; };
 		44135D061FA34E8800F77A8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D051FA34E8800F77A8F /* main.m */; };
-		44135D0F1FA34FA500F77A8F /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 44135D0D1FA34FA400F77A8F /* MobileNet.mlmodel */; };
-		44135D101FA34FA500F77A8F /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 44135D0E1FA34FA500F77A8F /* GoogLeNetPlaces.mlmodel */; };
 		44135D151FA34FFC00F77A8F /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D131FA34FFC00F77A8F /* UIImage+Utils.m */; };
 		44135D1B1FA3523500F77A8F /* KEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D1A1FA3523500F77A8F /* KEBaseViewController.m */; };
 		44135D1E1FA3537200F77A8F /* KENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D1D1FA3537200F77A8F /* KENavigationController.m */; };
@@ -33,8 +31,6 @@
 		44135D021FA34E8800F77A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44135D041FA34E8800F77A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44135D051FA34E8800F77A8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		44135D0D1FA34FA400F77A8F /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
-		44135D0E1FA34FA500F77A8F /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		44135D131FA34FFC00F77A8F /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
 		44135D141FA34FFC00F77A8F /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
 		44135D191FA3523500F77A8F /* KEBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEBaseViewController.h; sourceTree = "<group>"; };
@@ -98,8 +94,6 @@
 		44135D0C1FA34F5000F77A8F /* CoreMLModels */ = {
 			isa = PBXGroup;
 			children = (
-				44135D0E1FA34FA500F77A8F /* GoogLeNetPlaces.mlmodel */,
-				44135D0D1FA34FA400F77A8F /* MobileNet.mlmodel */,
 			);
 			path = CoreMLModels;
 			sourceTree = "<group>";
@@ -300,10 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44135D0F1FA34FA500F77A8F /* MobileNet.mlmodel in Sources */,
 				44135D251FA357A100F77A8F /* KETestView.m in Sources */,
 				44135D1B1FA3523500F77A8F /* KEBaseViewController.m in Sources */,
-				44135D101FA34FA500F77A8F /* GoogLeNetPlaces.mlmodel in Sources */,
 				44135D221FA3557B00F77A8F /* KEMainViewController.m in Sources */,
 				44135D151FA34FFC00F77A8F /* UIImage+Utils.m in Sources */,
 				44135D061FA34E8800F77A8F /* main.m in Sources */,

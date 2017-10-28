@@ -8,6 +8,15 @@
 
 #import "KEBaseViewController.h"
 
-@interface KEMainViewController : KEBaseViewController
+#import <ARKit/ARKit.h>
+#import <SceneKit/SceneKit.h>
+
+
+@interface KEMainViewController : KEBaseViewController<ARSCNViewDelegate,ARSessionDelegate>
+
+@property (nonatomic, strong) ARSCNView *arScnView;
+@property (nonatomic, strong) ARWorldTrackingConfiguration *arConfiguration;
+@property (nonatomic, strong) ARSession *arSesion;
+
 
 @end
