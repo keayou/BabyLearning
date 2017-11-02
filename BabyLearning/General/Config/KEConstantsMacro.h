@@ -2,12 +2,21 @@
 //  KEConstantsMacro.h
 //  BabyLearning
 //
-//  Created by 粥粥的小笨猪 on 2017/10/28.
+//  Created by fk on 2017/10/28.
 //  Copyright © 2017年 fk. All rights reserved.
 //
 
 #ifndef KEConstantsMacro_h
 #define KEConstantsMacro_h
+
+/********************* KEY *********************/
+
+#define Bugly_APPID   @"981be0a270"
+
+#define BAIDU_TRANSLATE_APPID   @"20171031000091926"
+#define BAIDU_TRANSLATE_KEY     @"U4dx64bmLXcC8h_cWzwU" //密钥
+
+/********************* KEY *********************/
 
 
 #define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;

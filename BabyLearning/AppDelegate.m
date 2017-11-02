@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    [Bugly startWithAppId:@"981be0a270"];
+    [Bugly startWithAppId:Bugly_APPID];
     
     return YES;
 }

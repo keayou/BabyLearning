@@ -18,6 +18,12 @@
 		44135D1E1FA3537200F77A8F /* KENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D1D1FA3537200F77A8F /* KENavigationController.m */; };
 		44135D221FA3557B00F77A8F /* KEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D211FA3557B00F77A8F /* KEMainViewController.m */; };
 		44135D251FA357A100F77A8F /* KETestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44135D241FA357A100F77A8F /* KETestView.m */; };
+		44755EB31FA82D8500C16F84 /* KERecognizeAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44755EB21FA82D8500C16F84 /* KERecognizeAreaView.m */; };
+		44755EB61FA8853000C16F84 /* KEMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44755EB51FA8853000C16F84 /* KEMotionManager.m */; };
+		44755EBA1FA88FCE00C16F84 /* KEBaseNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 44755EB91FA88FCE00C16F84 /* KEBaseNetWork.m */; };
+		44755EC21FA8921400C16F84 /* KEURLDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 44755EC11FA8921400C16F84 /* KEURLDefines.m */; };
+		44755EC61FA8940A00C16F84 /* KETranslateRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 44755EC51FA8940A00C16F84 /* KETranslateRequest.m */; };
+		44755ECA1FA8980F00C16F84 /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 44755EC91FA8980F00C16F84 /* NSString+Utility.m */; };
 		E845B93B1FA40EEE0007DEE1 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E845B9381FA40EEE0007DEE1 /* MobileNet.mlmodel */; };
 		E845B93C1FA40EEE0007DEE1 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E845B9391FA40EEE0007DEE1 /* GoogLeNetPlaces.mlmodel */; };
 		E845B93D1FA40EEE0007DEE1 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E845B93A1FA40EEE0007DEE1 /* Inceptionv3.mlmodel */; };
@@ -45,6 +51,18 @@
 		44135D211FA3557B00F77A8F /* KEMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEMainViewController.m; sourceTree = "<group>"; };
 		44135D231FA357A100F77A8F /* KETestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KETestView.h; sourceTree = "<group>"; };
 		44135D241FA357A100F77A8F /* KETestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KETestView.m; sourceTree = "<group>"; };
+		44755EB11FA82D8500C16F84 /* KERecognizeAreaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KERecognizeAreaView.h; sourceTree = "<group>"; };
+		44755EB21FA82D8500C16F84 /* KERecognizeAreaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KERecognizeAreaView.m; sourceTree = "<group>"; };
+		44755EB41FA8853000C16F84 /* KEMotionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEMotionManager.h; sourceTree = "<group>"; };
+		44755EB51FA8853000C16F84 /* KEMotionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEMotionManager.m; sourceTree = "<group>"; };
+		44755EB81FA88FCE00C16F84 /* KEBaseNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEBaseNetWork.h; sourceTree = "<group>"; };
+		44755EB91FA88FCE00C16F84 /* KEBaseNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEBaseNetWork.m; sourceTree = "<group>"; };
+		44755EC01FA8920200C16F84 /* KEURLDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEURLDefines.h; sourceTree = "<group>"; };
+		44755EC11FA8921400C16F84 /* KEURLDefines.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEURLDefines.m; sourceTree = "<group>"; };
+		44755EC41FA8940A00C16F84 /* KETranslateRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KETranslateRequest.h; sourceTree = "<group>"; };
+		44755EC51FA8940A00C16F84 /* KETranslateRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KETranslateRequest.m; sourceTree = "<group>"; };
+		44755EC81FA8980E00C16F84 /* NSString+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
+		44755EC91FA8980F00C16F84 /* NSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
 		9989925A0299163DD0CF8F54 /* Pods-BabyLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyLearning/Pods-BabyLearning.release.xcconfig"; sourceTree = "<group>"; };
 		E845B9381FA40EEE0007DEE1 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		E845B9391FA40EEE0007DEE1 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
@@ -106,6 +124,7 @@
 		44135D111FA34FCC00F77A8F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				44755EB71FA88FAD00C16F84 /* NetWork */,
 				44135D181FA3521600F77A8F /* ViewController */,
 				44135D121FA34FED00F77A8F /* Category */,
 			);
@@ -115,6 +134,8 @@
 		44135D121FA34FED00F77A8F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				44755EC81FA8980E00C16F84 /* NSString+Utility.h */,
+				44755EC91FA8980F00C16F84 /* NSString+Utility.m */,
 				44135D141FA34FFC00F77A8F /* UIImage+Utils.h */,
 				44135D131FA34FFC00F77A8F /* UIImage+Utils.m */,
 			);
@@ -135,6 +156,8 @@
 			children = (
 				44135D231FA357A100F77A8F /* KETestView.h */,
 				44135D241FA357A100F77A8F /* KETestView.m */,
+				44755EB11FA82D8500C16F84 /* KERecognizeAreaView.h */,
+				44755EB21FA82D8500C16F84 /* KERecognizeAreaView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,6 +181,35 @@
 				44135D171FA3520800F77A8F /* View */,
 			);
 			path = Business;
+			sourceTree = "<group>";
+		};
+		44755EB71FA88FAD00C16F84 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				44755EB81FA88FCE00C16F84 /* KEBaseNetWork.h */,
+				44755EB91FA88FCE00C16F84 /* KEBaseNetWork.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		44755EC31FA893CF00C16F84 /* NetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				44755EC41FA8940A00C16F84 /* KETranslateRequest.h */,
+				44755EC51FA8940A00C16F84 /* KETranslateRequest.m */,
+			);
+			path = NetRequest;
+			sourceTree = "<group>";
+		};
+		44755EC71FA8941100C16F84 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E845B93F1FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.h */,
+				E845B9401FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.m */,
+				44755EB41FA8853000C16F84 /* KEMotionManager.h */,
+				44755EB51FA8853000C16F84 /* KEMotionManager.m */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		735DCC7F0A6E4A5550A2232B /* Pods */ = {
@@ -190,8 +242,8 @@
 		E845B93E1FA4B8A80007DEE1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				E845B93F1FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.h */,
-				E845B9401FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.m */,
+				44755EC71FA8941100C16F84 /* Manager */,
+				44755EC31FA893CF00C16F84 /* NetRequest */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -209,6 +261,8 @@
 			children = (
 				E845B9441FA4BE3D0007DEE1 /* KEPrefixHeader.pch */,
 				E845B9451FA4BECA0007DEE1 /* KEConstantsMacro.h */,
+				44755EC01FA8920200C16F84 /* KEURLDefines.h */,
+				44755EC11FA8921400C16F84 /* KEURLDefines.m */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -336,16 +390,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44755ECA1FA8980F00C16F84 /* NSString+Utility.m in Sources */,
 				E845B93B1FA40EEE0007DEE1 /* MobileNet.mlmodel in Sources */,
 				44135D251FA357A100F77A8F /* KETestView.m in Sources */,
 				E845B93C1FA40EEE0007DEE1 /* GoogLeNetPlaces.mlmodel in Sources */,
 				44135D1B1FA3523500F77A8F /* KEBaseViewController.m in Sources */,
 				44135D221FA3557B00F77A8F /* KEMainViewController.m in Sources */,
 				E845B93D1FA40EEE0007DEE1 /* Inceptionv3.mlmodel in Sources */,
+				44755EC61FA8940A00C16F84 /* KETranslateRequest.m in Sources */,
 				E845B9411FA4B9720007DEE1 /* KEVNCoreMLRequestHandler.m in Sources */,
 				44135D151FA34FFC00F77A8F /* UIImage+Utils.m in Sources */,
 				44135D061FA34E8800F77A8F /* main.m in Sources */,
+				44755EB61FA8853000C16F84 /* KEMotionManager.m in Sources */,
 				44135D1E1FA3537200F77A8F /* KENavigationController.m in Sources */,
+				44755EC21FA8921400C16F84 /* KEURLDefines.m in Sources */,
+				44755EBA1FA88FCE00C16F84 /* KEBaseNetWork.m in Sources */,
+				44755EB31FA82D8500C16F84 /* KERecognizeAreaView.m in Sources */,
 				44135CF81FA34E8700F77A8F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
